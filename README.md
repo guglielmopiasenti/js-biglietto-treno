@@ -12,10 +12,11 @@ Based on this information, he will have to calculate the total price of the trip
 
 1. Targeting an element in the DOM.
 2. Asking the user how many km he needs to travel and saving it.
-3. Asking the user's age and saving it.
-4. Insert discount age variable for underage (20%) and over 65 (40%) users.
+3. Calculating price per km and saving it.
+4. Asking the user's age and saving it.
 5. Calculate price based on previous info (eliminate calculation for more than 2 decimals).
-6. Print result of the calculation on the choosen element.
+6. Insert discount age variable for underage (20%) and over 65 (40%) users.
+7. Print result of the calculation on the choosen element.
 
 ### Bonuses
 
