@@ -23,17 +23,19 @@ console.log(totalKmCost);
 const age = prompt ('Enter your age', '25');
 console.log(age);
 
+
+// Inserting age variable for discount calculation
+
+let discount = '';
+
+if (age <= 18) {
+    discount = 0.2;
+} else if (age >= 65) {
+    discount = 0.4;
+}
+console.log("ticket discount: " + (discount * 100) + "%");
+
+
 // calculating ticket price
 
 const ticketPrice = totalKmCost * travelKm;
-
-// Insering age variable for discount calculation
-
-let discount = null;
-
-if (age <= 18) {
-    let discount = 0.2;
-} else if (age >= 65) {
-    let discount = 0.4;
-}
-console.log("ticket discount: " + (discount * 100) + "%");
