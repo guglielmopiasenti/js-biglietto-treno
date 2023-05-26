@@ -4,5 +4,15 @@ console.log('JS OK')
 
 // Targeting DOM element
 
-document.getElementById("target");
-console.log('target')
+const p = document.getElementById("target");
+console.log(target)
+
+// Asking km 
+
+const travelKm = prompt ('Enter how many km to travel', '20');
+console.log(travelKm);
+
+// Asking user's age
+
+const age = prompt ('Enter your age', '25');
+console.log(age);
