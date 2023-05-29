@@ -11,19 +11,55 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/Nederlandse_Spoorwegen_logo.svg.pnge-block align-text-top">
-                NS Transporte
-              </a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/Nederlandse_Spoorwegen_logo.svg.png" alt="Bootstrap" width="65" height="30">
+                </a>
+              <a class="navbar-brand" href="#">NS Transporte</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Mijn NS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Travel Information</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                      <li><a class="dropdown-item" href="#">More about NS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Mjin NS</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Find your destination" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
           </nav>
     </header>
     
+    
     <!-- Target element for .js -->
-    <p id="target"></p>
-
+    <div class="container d-flex justify-content-center py-5">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Train ticket calculator</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Calculate easily your ticket!</h6>
+                <p id="target"></p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
